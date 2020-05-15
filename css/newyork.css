@@ -368,6 +368,15 @@ main .site-content .post-content > .post-image, .post-info{
         padding: .6rem .3rem;
         margin: .5rem;
     }
+    main .site-title{ 
+        background-position: center;
+    }
+    main .site-content{
+        margin: 1rem .1rem;
+        display: grid;
+        grid-template-columns: 70% 30%;
+        
+    }
 }
 
 

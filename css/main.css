@@ -89,14 +89,14 @@ p{
     cursor: pointer;
     display: none;
     visibility: hidden;
-    padding-left: .5rem;
+    
 }
     
 
 .nav .toggle-collapse .toggle-icons{
     display: flex;
     justify-content: flex-end;
-    padding: 1.7rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .nav .toggle-collapse .toggle-icons i{
@@ -107,7 +107,7 @@ p{
 .collapse{
     height: 25rem;
     display: contents;
-    
+    padding: 2rem;  
 }
 
 
@@ -115,9 +115,9 @@ p{
 /* --------nav bar -------*/
 .nav {
     background: white;
-    padding: 0 2rem;
+    padding: 0rem 1rem;
     height: 0rem;
-    min-height: 11vh;
+    min-height: 9vh;
     overflow: hidden;
     transition: height 1s ease-in-out;
 }
@@ -191,6 +191,7 @@ nav .social i:hover{
 main .site-title{
     background: url(../img/Hawaii.jpg);
     background-size: cover;
+    background-position: center;
     background-attachment: scroll;
     height: 120vh;
     display: flex;
@@ -327,10 +328,11 @@ main .site-content .post-content > .post-image, .post-title{
 main .site-content .post-content > .post-image, .post-info{
     background: var(--sky);
     padding: 1rem;
-    position: absolute;
-    left: 48vw;
+    position: relative;
+    left: 4vw;
     border-radius: .3rem;
     margin: 0 .5rem;
+    width: 25%;
     
 }
 main .site-content .post-title a{
@@ -425,7 +427,7 @@ main .site-content .post-title a{
     }
     .nav .toggle-collapse{
         display: initial;
-        padding: .2rem;
+        padding: .4rem;
         visibility: visible;
     }
     .main .site-title{
@@ -474,11 +476,11 @@ main .site-content .post-title a{
     }
     main .site-content .sidebar{
         padding: .1rem 1rem;
-        font-size: .2rem;
+        font-size: x-small;
     }
     main .site-content .sidebar h2{
         font-size: 1rem;
-        padding-bottom: .3rem;
+        padding: .3rem .3rem;
     }
     main .site-content .post-content > .post-image, .post-info{
         background: var(--sky);
@@ -487,7 +489,8 @@ main .site-content .post-title a{
         left: 4vw;
         border-radius: .3rem;
         margin: 0 .1rem;
-        font-size: .3rem;
+        font-size: .7rem;
+        width: 30%;
     }  
     main .site-content .post-image img{
         padding: 1rem;

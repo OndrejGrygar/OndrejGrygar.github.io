@@ -190,6 +190,7 @@ nav .social i:hover{
 main .site-title{
     background: url(../img/Newyork3.JPG);
     background-size: cover;
+    background-position: center;
     background-attachment: scroll;
     height: 120vh;
     display: flex;
@@ -254,8 +255,7 @@ main .blog-post .blog-content .btn:hover{
 /*---------------content clanky---------------- */
 main .site-content{
     margin: 10rem 5rem;
-    display: grid;
-    grid-template-columns: 80% 20%;
+    display: block;
     
 }
 
@@ -373,9 +373,13 @@ main .site-content .post-content > .post-image, .post-info{
     }
     main .site-content{
         margin: 1rem .1rem;
-        display: grid;
-        grid-template-columns: 70% 30%;
+        display: block;
+        padding: .3rem .3rem;
         
+    }
+    main .site-content .sidebar h2{
+        font-size: 1rem;
+        padding-bottom: .3rem;
     }
 }
 

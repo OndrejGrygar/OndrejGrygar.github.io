@@ -45,6 +45,11 @@ html {
     background: transparent;
 }
 
+div {
+    position: relative;
+    top: -7px;
+}
+
 html,
 body {
     margin: 0;
@@ -181,6 +186,7 @@ p {
 
 .nav .nav-items .nav-link:hover {
     background-color: var(--midnight);
+    border-radius: 10%;
 }
 
 .nav .nav-items .nav-link a:hover {
@@ -197,14 +203,13 @@ p {
 }
 
 .nav .nav-brand a {
-    font-size: 1.6rem;
     padding: 0 0;
     text-decoration: none;
     display: block;
     font-family: var(--Abel);
     text-transform: none;
     font-weight: 900;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
 }
 
 nav .social .instagram img {

@@ -473,6 +473,10 @@
         color: white;
     }
     
+    .footer .form-element {
+        margin: 1.6rem 0;
+    }
+    
     .footer .newsletter .form-element span {
         background: var(--sky);
         padding: 1rem .9rem;

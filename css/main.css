@@ -166,7 +166,7 @@
     
     .nav .nav-items .nav-link {
         padding: 0 1rem;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         position: relative;
         font-family: var(--Livvic);
     }
@@ -187,7 +187,6 @@
     
     .nav .nav-brand a:hover {
         color: #14664b;
-        border-radius: 10%;
     }
     
     .nav .nav-brand a {

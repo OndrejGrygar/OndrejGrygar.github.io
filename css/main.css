@@ -563,7 +563,7 @@ main .site-content .post-title a {
     }
     main .blog-post .blog-content img {
         padding-bottom: .6rem;
-        height: 200px;
+        height: 300px;
     }
     main .blog-post .blog-content .btn {
         font-size: .1rem;
@@ -606,12 +606,12 @@ main .site-content .post-title a {
         position: relative;
         left: 4vw;
         border-radius: .3rem;
-        margin: 0 .1rem;
+        margin: 0 1.2rem;
         font-size: .7rem;
         width: 30%;
     }
     main .site-content .post-image img {
-        padding: 1rem;
+        padding: 2rem;
     }
     main .site-title {
         background-position: center;

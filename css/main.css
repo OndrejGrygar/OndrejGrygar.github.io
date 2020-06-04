@@ -113,7 +113,7 @@
     
     .nav .toggle-collapse {
         position: absolute;
-        width: 90%;
+        width: 100%;
         cursor: pointer;
         display: none;
         visibility: hidden;

@@ -206,7 +206,9 @@
         height: 36px;
         padding: 0 .1rem;
     }
-    
+    nav .social {
+        align-self:center;
+    }
     nav .social i {
         padding: 0 .2rem;
         line-height: 0;
@@ -502,10 +504,10 @@
         }
         .nav .nav-items {
             margin-top: 1rem;
+            align-items: center;
         }
         .nav .toggle-collapse,
         .nav .nav-brand {
-            display: initial;
             visibility: visible;
         }
         .nav-collapse .nav-menu {

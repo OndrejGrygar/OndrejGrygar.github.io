@@ -131,13 +131,13 @@ p {
     padding: .9rem 0;
 }
 
-.nav .toggle-collapse .toggle-icons {
+.nav .toggle-collapse {
     display: flex;
     justify-content: flex-end;
     padding: 1.5rem 1rem;
 }
 
-.nav .toggle-collapse .toggle-icons i {
+.nav .toggle-collapse i {
     font-size: 1.4rem;
     color: var(--text-gray);
     line-height: 0;
@@ -179,7 +179,7 @@ p {
 
 .nav .nav-items .nav-link {
     padding: 0 1rem;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     position: relative;
     font-family: var(--Livvic);
 }
@@ -212,19 +212,23 @@ p {
     font-size: 1.7rem;
 }
 
-nav .social .instagram img {
+header .social {
+    align-self: center;
+}
+
+header .social .instagram img {
     border-radius: 50%;
     width: 36px;
     height: 36px;
     padding: 0 .1rem;
 }
 
-nav .social i {
+header .social i {
     padding: 0 .2rem;
     line-height: 0;
 }
 
-nav .social i:hover {
+header .social i:hover {
     color: #14664b;
 }
 
@@ -446,10 +450,11 @@ main .site-content .post-title a {
     }
     .nav .nav-items {
         margin-top: 1.5rem;
+        align-items: center;
     }
     .nav .toggle-collapse,
     .nav .nav-brand {
-        display: initial;
+        /* display: initial; */
         visibility: visible;
     }
     .nav-collapse .nav-menu {

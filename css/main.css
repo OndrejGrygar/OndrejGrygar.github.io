@@ -571,14 +571,12 @@ main .site-content .post-title a {
     }
     main .blog-post .blog-content img {
         padding-bottom: 1.3rem;
-        height: fit-content;
     }
     h3 {
         font-size: .7rem;
     }
     main .blog-post .blog-content img {
         padding-bottom: .6rem;
-        height: 300px;
     }
     main .blog-post .blog-content .btn {
         font-size: .1rem;
